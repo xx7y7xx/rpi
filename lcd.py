@@ -154,4 +154,4 @@ if __name__ == '__main__':
   except (KeyboardInterrupt, SystemExit):
     GPIO.cleanup()
   finally:
-    cleanup()
+    GPIO.cleanup()
